@@ -9,6 +9,11 @@ public class TestWaterBottle {
     public void before() { waterBottle = new WaterBottle(100);}
 
     @Test
+    public void hasVolume(){
+        assertEquals(100, waterBottle.Volume());
+    }
+
+    @Test
     public void canDrink(){
         assertEquals(90, waterBottle.Drink());
     }
