@@ -17,4 +17,8 @@ public class TestWaterBottle {
     public void canEmpty(){
         assertEquals(0, waterBottle.Empty());
     }
+    @Test
+    public void canFill(){
+        assertEquals(100, waterBottle.Fill());
+    }
 }
