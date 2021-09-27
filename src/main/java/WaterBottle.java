@@ -8,4 +8,8 @@ public class WaterBottle {
     public int Drink(){
         return volume - 10;
     }
+
+    public int Empty() {
+        return volume = 0;
+    }
 }

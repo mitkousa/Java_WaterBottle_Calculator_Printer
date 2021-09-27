@@ -12,4 +12,9 @@ public class TestWaterBottle {
     public void canDrink(){
         assertEquals(90, waterBottle.Drink());
     }
+
+    @Test
+    public void canEmpty(){
+        assertEquals(0, waterBottle.Empty());
+    }
 }
